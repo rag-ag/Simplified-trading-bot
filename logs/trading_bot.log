@@ -1,0 +1,41 @@
+2026-07-24 10:15:02 | INFO     | TradingBot:place_order:24 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-24 10:15:02 | DEBUG    | TradingBot:post:31 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784888102114, 'signature': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2026-07-24 10:15:03 | DEBUG    | TradingBot:post:36 - HTTP Status Code: 200
+2026-07-24 10:15:03 | INFO     | TradingBot:post:42 - API Request Succeeded | Endpoint: /fapi/v1/order | OrderId: 2847193021
+2026-07-24 10:18:45 | INFO     | TradingBot:place_order:24 - Initiating SELL LIMIT order for 0.002 BTCUSDT at price 75000.0
+2026-07-24 10:18:45 | DEBUG    | TradingBot:post:31 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 75000.0, 'timeInForce': 'GTC', 'timestamp': 1784888325890, 'signature': 'f4a2d81201ab2c349afbf4c8996fb92427ae41e4649b934ca495991b7852c921'}
+2026-07-24 10:18:46 | DEBUG    | TradingBot:post:36 - HTTP Status Code: 200
+2026-07-24 10:18:46 | INFO     | TradingBot:post:42 - API Request Succeeded | Endpoint: /fapi/v1/order | OrderId: 28471948822026-07-24 23:12:02 | INFO     | TradingBot:place_order:35 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-24 23:12:02 | DEBUG    | TradingBot:post:41 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784914922415, 'signature': '12157b9423ea5cb35bf01716a9659f60f8c33a33168a198cc979174913a882b9'}
+2026-07-24 23:12:03 | DEBUG    | TradingBot:post:45 - HTTP Status Code: 401
+2026-07-24 23:12:03 | ERROR    | TradingBot:post:49 - API Error Response: {'code': -2014, 'msg': 'API-key format invalid.'}
+2026-07-24 23:12:03 | ERROR    | TradingBot:place_order:103 - Order Execution Failed: Binance API Error [-2014]: API-key format invalid.
+2026-07-24 23:12:17 | INFO     | TradingBot:place_order:35 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-24 23:12:17 | DEBUG    | TradingBot:post:41 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784914937323, 'signature': '20131bd657a209b4a77db6d4439095628a6bc915d10de7e78d66a079527bab53'}
+2026-07-24 23:12:18 | DEBUG    | TradingBot:post:45 - HTTP Status Code: 401
+2026-07-24 23:12:18 | ERROR    | TradingBot:post:49 - API Error Response: {'code': -2014, 'msg': 'API-key format invalid.'}
+2026-07-24 23:12:18 | ERROR    | TradingBot:place_order:103 - Order Execution Failed: Binance API Error [-2014]: API-key format invalid.
+2026-07-24 23:14:42 | INFO     | TradingBot:place_order:35 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-24 23:14:42 | DEBUG    | TradingBot:post:45 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784915082829, 'signature': '07383cba9ea7fbac15c8dd0c7d8b5e3a847e79f9f201b848c41d5c4a0624967f'}
+2026-07-24 23:14:44 | DEBUG    | TradingBot:post:49 - HTTP Status Code: 401
+2026-07-24 23:14:44 | ERROR    | TradingBot:post:53 - API Error Response: {'code': -2014, 'msg': 'API-key format invalid.'}
+2026-07-24 23:14:44 | ERROR    | TradingBot:place_order:103 - Order Execution Failed: Binance API Error [-2014]: API-key format invalid.
+2026-07-24 23:18:52 | INFO     | TradingBot:place_order:35 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-24 23:18:52 | DEBUG    | TradingBot:post:45 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784915332272, 'signature': 'd6fdce141996833276dc6520590c22a56f698ddd02191623bceec8c36ba29779'}
+2026-07-24 23:18:52 | DEBUG    | TradingBot:post:49 - HTTP Status Code: 401
+2026-07-24 23:18:52 | ERROR    | TradingBot:post:53 - API Error Response: {'code': -2014, 'msg': 'API-key format invalid.'}
+2026-07-24 23:18:52 | ERROR    | TradingBot:place_order:120 - Order Execution Failed: Binance API Error [-2014]: API-key format invalid.
+2026-07-24 23:25:40 | ERROR    | TradingBot:place_order:76 - Execution failed: Malformed API Key length (18)
+2026-07-25 02:35:55 | ERROR    | TradingBot:place_order:57 - CLI Input Validation Failed: 1 validation error for OrderInput
+symbol
+  Value error, Symbol must end with USDT or BUSD (e.g., BTCUSDT) [type=value_error, input_value='BTCUSD', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-07-25 02:36:30 | ERROR    | TradingBot:place_order:76 - Execution failed: Malformed API Key length (18)
+2026-07-25 02:37:29 | ERROR    | TradingBot:place_order:66 - Execution failed: Missing API Credentials
+2026-07-25 02:39:03 | ERROR    | TradingBot:place_order:66 - Execution failed: Missing API Credentials
+2026-07-25 02:40:19 | INFO     | TradingBot:place_order:35 - Initiating BUY MARKET order for 0.002 BTCUSDT at price None
+2026-07-25 02:40:19 | DEBUG    | TradingBot:post:45 - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1784927419832, 'signature': '29ff862a8e97938c17b0eefdcba74a319ad18c98cd09e287d9c717c7232f948e'}
+2026-07-25 02:40:20 | DEBUG    | TradingBot:post:49 - HTTP Status Code: 401
+2026-07-25 02:40:20 | ERROR    | TradingBot:post:53 - API Error Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-25 02:40:20 | ERROR    | TradingBot:place_order:120 - Order Execution Failed: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-07-25 02:44:24 | INFO     | TradingBot:place_order:76 - Dry Run Order Validated for BTCUSDT
